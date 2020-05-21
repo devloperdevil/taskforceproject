@@ -1,0 +1,21 @@
+from django.shortcuts import render,HttpResponse
+
+# Create your views here.
+def index(request):
+    return render(request,'index.htm')
+
+def faqs(request):
+  
+     return render(request,'faqs.htm')
+    
+def contact(request):
+
+    return render(request,'contact.htm')
+
+def help(request):
+   
+     return render(request,'help.htm')
+
+def form(request):
+   
+     return render(request,'form.htm')
